@@ -41,6 +41,14 @@ Fill out the build command and public folder:
 Now go to [the GitHub developer application screen](https://github.com/settings/developers)
 and **register new application**.
 
+### Register New application (on GitHub)
+- **Application name**  Ex : Netlify CMS  
+- **Homepage URL** Ex: https://foobar-1234.netlify.com
+- **Authorization callback URL**  https://api.netlify.com/auth/done
+
+
+
+
 Once you've setup the application, go back to netlify, navigate to the **Access** tab. Then
 fill in your new Client ID and Client Secret in the Github Authentication Provider and check
 the **Enable GitHub** box.
